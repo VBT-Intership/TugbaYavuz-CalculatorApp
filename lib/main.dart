@@ -105,7 +105,7 @@ class Calculator extends  State<MyCalculator>{
         validator: (value){
           if(value.isEmpty) return "please enter the 1st number";
         },
-        decoration: InputDecoration(hintText: "Enter the 2st number"),
+        decoration: InputDecoration(hintText: "Enter the 2nd number"),
         keyboardType: TextInputType.number),
 
         TextFormField(
